@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="css/animate.css">
         <!-- css style -->
         <link rel="stylesheet" href="css/style.css" type="text/css">
+        <!-- media css -->
+        <link rel="stylesheet" href="css/media.css" type="text/css">
     </head>
     <body>
         <header>
@@ -94,7 +96,7 @@
                 </div>
             </section>
             <!-- main header -->
-            <section class="main-header ">
+            <section class="main-header">
                 <div class="container">
                     <div class="row items-center justify-between">
                         <div class="logo">
@@ -102,6 +104,10 @@
                                 <img src="images/logo.png" alt="logo" class="wow bounceIn">
                             </a>
                         </div>
+                         <!-- toggle menu -->
+                         <a href="javascript:void(0);" class="toggle">
+                            <i class="fa-solid fa-bars"></i>
+                        </a>
                         <ul>
                             <li>
                                 <a href="javascript:void(0);">
@@ -276,22 +282,22 @@
                         <div class="details">
                             <ul>
                                 <li>
-                                    <a href="javascript:(0);">
+                                    <a href="javascript:void(0);">
                                         <i class="fa-solid fa-magnifying-glass wow flip"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:(0);">
+                                    <a href="javascript:void(0);">
                                         <i class="fa-regular fa-user wow flip"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:(0);">
+                                    <a href="javascript:void(0);">
                                         <i class="fa-solid fa-bag-shopping wow flip"></i>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="javascript:(0);">
+                                    <a href="javascript:void(0);">
                                         <i class="fa-regular fa-heart fa-beat"></i>
                                     </a>
                                 </li>
@@ -305,7 +311,7 @@
             <!-- banner -->
             <section class="banner">
                 <div class="container">
-                    <div class="row items-center">
+                    <div class="row ">
                         <div class="contain ">
                             <span class="wow bounceInDown">
                                 <i class="fa-solid fa-fire-flame-curved"></i>
@@ -339,7 +345,7 @@
                 </div>
             </section>
             <!-- category -->
-            <section class="cotegories py-100">
+            <section class="cotegories">
                 <div class="container">
                     <div class="title wow bounceInRight">
                         <span>
@@ -350,26 +356,42 @@
                             Browse By Category
                         </h2>
                     </div>
-                    <div class="row justify-between">
-                        <div class="w-2 category-box wow fadeInUp">
-                            <img src="images/category-1.png" alt="category-1">
-                            <h4>Accessories</h4>
+                    <div class="row">
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-1.png" alt="category-1">
+                                <h4>Accessories</h4>
+                            </div>
                         </div>
-                        <div class="w-2 category-box wow fadeInUp">
-                            <img src="images/category-2.png" alt="category-2">
-                            <h4>Video Game</h4>
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-2.png" alt="category-2">
+                                <h4>Gaming</h4>
+                            </div>
                         </div>
-                        <div class="w-2 category-box wow fadeInUp">
-                            <img src="images/category-3.png" alt="category-3">
-                            <h4>Laptop</h4>
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-3.png" alt="category-3">
+                                <h4>Laptop</h4>
+                            </div>
                         </div>
-                        <div class="w-2 category-box wow fadeInUp">
-                            <img src="images/category-4.png" alt="category-4">
-                            <h4>Camera</h4>
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-4.png" alt="category-4">
+                                <h4>Camera</h4>
+                            </div>
                         </div>
-                        <div class="w-2 category-box wow fadeInUp">
-                            <img src="images/category-5.png" alt="category-5">
-                            <h4>Mobile</h4>
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-5.png" alt="category-5">
+                                <h4>Mobile</h4>
+                            </div>
+                        </div>
+                        <div class="w-2 w-xl-2 w-lg-3 w-md-4 w-sm-6">
+                            <div class="category-box wow pulse">
+                                <img src="images/category-6.png" alt="category-6">
+                                <h4>Headphone</h4>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -378,46 +400,47 @@
             <section class="about py-100">
                 <div class="container">
                     <div class="row about-box">
-                        <div class="w-6 title wow fadeInLeft">
-                            <span>
-                                <i class="fa-solid fa-headphones-simple"></i>
-                                Don't Miss !!
-                            </span>
-                            <h2 class="mb-30">
-                                Enhance Your
+                        <div class="w-6 w-xl-6 w-lg-7 w-md-12  wow fadeInLeft">
+                            <div class="about-box">
+                                <div class="title">
+                                    <span>
+                                        <i class="fa-solid fa-headphones-simple"></i>
+                                        Don't Miss !!
+                                    </span>
+                                    <h2 class="mb-30">
+                                        Enhance Your
+                                        <br>
+                                        Music Experience
+                                    </h2>
+                                </div>
+                                <div class="timing">
+                                    <div class="circle circle1">
+                                        <h3>0</h3>
+                                        <span>Day</span>
+                                    </div>
+                                    <div class="circle">
+                                        <h3>00</h3>
+                                        <span>Hrs</span>
+                                    </div>
+                                    <div class="circle">
+                                        <h3>00</h3>
+                                        <span>Min</span>
+                                    </div>
+                                    <div class="circle">
+                                        <h3>00</h3>
+                                        <span>Sec</span>
+                                    </div>
+                                </div>
                                 <br>
-                                Music Experience
-                            </h2>
-                            <div class="circle circle1">
-                                <h3>0</h3>
-                                <span>Day</span>
-                            </div>
-                            <div class="circle">
-                                <h3>00</h3>
-                                <span>Hrs</span>
-                            </div>
-                            <div class="circle">
-                                <h3>00</h3>
-                                <span>Min</span>
-                            </div>
-                            <div class="circle">
-                                <h3>00</h3>
-                                <span>Sec</span>
-                            </div>
-                            <br>
-                            <a href="index.html" class="btn">
-                                Check it Out !
-                            </a>
+                                <a href="index.html" class="btn">
+                                    Check it Out !
+                                </a>
+                            </div>                            
                         </div>
-                        <div class="w-6 about-img">
-                            <img src="images/about.png" alt="about">
-                            <div class="wifi-box">
-                                <div class="wifi wifi1"></div>
-                                <div class="wifi wifi2"></div>
-                                <div class="wifi wifi3"></div>
-                                <div class="wifi wifi4"></div>
-                                <div class="wifi wifi5"></div>
-                            </div>
+                        <div class="w-6 w-xl-6 w-lg-5">
+                            <div class="about-img">
+                                <img src="images/about.png" alt="about">
+                            </div>                            
                         </div>
                     </div>
                 </div>
@@ -435,7 +458,7 @@
                         </h2>
                     </div>
                     <div class="row">
-                        <div class="w-4">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
                             <div class="product">
                                 <img src="images/product-1.png " alt="product-1" class="wow bounceIn">
                                 <span class="dis">% 12 Off</span>
@@ -444,18 +467,18 @@
                                 </a>                            
                                 <h5>Smart Watch</h5>
                                 <span><i class="fa-solid fa-indian-rupee-sign"></i>4,000</span>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>3,400
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>3,400</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-regular fa-star-half-stroke"></i>
                                     <i class="fa-regular fa-star"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
                                 </div>
                             </div>       
                         </div>
-                        <div class="w-4">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
                             <div class="product product2">
                                 <img src="images/product-2.png" alt="product-2" class="wow bounceIn" class="wow bounceIn">
                                 <span class="dis">New</span>
@@ -463,36 +486,36 @@
                                     <span>Audio & Video</span>
                                 </a>
                                 <h5>Apple iPhone 14</h5>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>1,45,000
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>1,45,000</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-regular fa-star-half-stroke"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>                                    
                                 </div>
                             </div>              
                         </div>
-                        <div class="w-4">
-                            <div class="product">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
+                            <div class="product product3">
                                 <img src="images/product-3.png" alt="product-3" class="wow bounceIn" class="wow bounceIn">
                                 <a href="index.html">
                                     <span>Audio</span>
                                 </a>
                                 <h5>Bluetooth Speaker</h5>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>5099
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>5099</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-regular fa-star-half-stroke"></i>
                                     <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
+                                    <i class="fa-regular fa-star"></i>                                    
                                 </div>
                             </div>
                         </div>
-                        <div class="w-4">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
                             <div class="product product4">
                                 <img src="images/product-4.png " alt="product-4" class="wow bounceIn" class="wow bounceIn">
                                 <span class="dis">% 10 Off</span>
@@ -501,18 +524,18 @@
                                 </a>
                                 <h5>Wireless Gamepad </h5>
                                 <span><i class="fa-solid fa-indian-rupee-sign"></i>1099</span>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>999
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>999</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
+                                    <i class="fa-regular fa-star"></i>                                    
                                 </div>
                             </div>                 
                         </div>
-                        <div class="w-4">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
                             <div class="product product5">
                                 <img src="images/product-5.png" alt="product-5" class="wow bounceIn">
                                 <span class="dis">New</span>
@@ -520,18 +543,18 @@
                                     <span>Audio</span>
                                 </a>
                                 <h5>Wireless Headphone</h5>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>11999
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>11999</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-star"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
+                                    <i class="fa-solid fa-star"></i>                                    
                                 </div>
                             </div>               
                         </div>
-                        <div class="w-4">
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
                             <div class="product product6">
                                 <img src="images/product-6.png" alt="product-6" class="wow bounceIn">
                                 <span class="dis">% 11 Off</span>
@@ -540,14 +563,14 @@
                                 </a>
                                 <h5>Digital Camera</h5>                            
                                 <span><i class="fa-solid fa-indian-rupee-sign"></i>75,000</span>
-                                <i class="fa-solid fa-indian-rupee-sign"></i>64,000
+                                <i class="fa-solid fa-indian-rupee-sign"></i>
+                                <p>64,000</p>
                                 <div class="rating">
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-regular fa-star"></i>
-                                    <i class="fa-regular fa-star"></i>
-                                    <i class="fa-solid fa-suitcase"></i>
+                                    <i class="fa-regular fa-star"></i>                                    
                                 </div>
                             </div>
                         </div>
@@ -561,41 +584,45 @@
             <section class="upcoming py-100">
                 <div class="container">
                     <div class="row upcoming-event">                    
-                        <div class="w-5 upcoming-product">
-                            <div class="title wow bounceInLeft">
-                                <span>
-                                    <i class="fa-solid fa-basket-shopping"></i>
-                                    This Week 's
-                                </span>
-                                <h2 class="mb-30">
-                                    New Arrivals
+                        <div class="w-5 w-md-12">
+                            <div class="upcoming-product">
+                                <div class="title wow bounceInLeft">
+                                    <span>
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                        This Week 's
+                                    </span>
+                                    <h2>
+                                        New Arrivals
+                                    </h2>
+                                </div>
+                                <span>Upcoming New Product</span>
+                                <h2>
+                                    Surface Laptop 4 15”
                                 </h2>
+                                <div class="circle wow flipInX">
+                                    <h3>23</h3>
+                                    <span>Hrs</span>
+                                </div>
+                                <div class="circle wow flipInX">
+                                    <h3>44</h3>
+                                    <span>Min</span>
+                                </div>
+                                <div class="circle wow flipInX">
+                                    <h3>59</h3>
+                                    <span>Sec</span>
+                                </div>
+                                <a href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf?activetab=pivot:overviewtab" class="btn" target="_blank">
+                                    Shop Now
+                                </a>
                             </div>
-                            <span>Upcoming New Product</span>
-                            <h2>
-                                Surface Laptop 4 15”
-                            </h2>
-                            <div class="circle wow flipInX">
-                                <h3>23</h3>
-                                <span>Hrs</span>
-                            </div>
-                            <div class="circle wow flipInX">
-                                <h3>44</h3>
-                                <span>Min</span>
-                            </div>
-                            <div class="circle wow flipInX">
-                                <h3>59</h3>
-                                <span>Sec</span>
-                            </div>
-                            <a href="https://www.microsoft.com/en-us/d/surface-laptop-studio/8srdf62swkpf?activetab=pivot:overviewtab" class="btn" target="_blank">
-                                Shop Now
-                            </a>
                         </div>
-                        <div class="w-7 upcoming-img">
-                            <img src="images/upcoming.png" alt="png" class="wow rollIn">
-                            <div class="amount">
-                                <span>From</span>
-                                $4999
+                        <div class="w-7">
+                            <div class="upcoming-img">
+                                <img src="images/upcoming.png" alt="png" class="wow rollIn">
+                                <div class="amount">
+                                    <span>From</span>
+                                    $4999
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -614,55 +641,58 @@
                         </h2>
                     </div>
                     <div class="row best-selling">
-                        <div class="w-4 product">
-                            <img src="images/best-1.png" alt="best-1" class="wow bounceIn">
-                            <span class="dis wow fadeInRight">New</span>                        
-                            <div class="like">
-                                <i class="fa-solid fa-heart  wow bounceIn"></i>
-                            </div>
-                            <h5>Touchelex Smartwatch</h5>
-                            <span>$ 180.00</span>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-suitcase wow fadeInRight"></i>
-                            </div>
-                        </div>
-                        <div class="w-4 product">
-                            <img src="images/product-5.png" alt="best-2" class="wow bounceIn">
-                            <span class="dis wow fadeInRight">% 12 Off</span>
-                            <div class="like">
-                                <i class="fa-solid fa-heart  wow bounceIn"></i>
-                            </div>
-                            <h5>Bluetooth Wireless Headphones</h5>
-                            <span>$ 499.00</span>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-suitcase wow fadeInRight"></i>
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
+                            <div class="product">
+                                <img src="images/best-1.png" alt="best-1" class="wow bounceIn">
+                                <span class="dis wow fadeInRight">New</span>                        
+                                <div class="like">
+                                    <i class="fa-solid fa-heart  wow bounceIn"></i>
+                                </div>
+                                <h5>Touchelex Smartwatch</h5>
+                                <span>$ 180.00</span>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
                             </div>
                         </div>
-                        <div class="w-4 product">
-                            <img src="images/product-3.png" alt="best-3" class="wow bounceIn">
-                            <span class="dis wow fadeInRight">% 5 Off</span>
-                            <div class="like">
-                                <i class="fa-solid fa-heart  wow bounceIn"></i>
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
+                            <div class="product">
+                                <img src="images/product-5.png" alt="best-2" class="wow bounceIn">
+                                <span class="dis wow fadeInRight">% 12 Off</span>
+                                <div class="like">
+                                    <i class="fa-solid fa-heart  wow bounceIn"></i>
+                                </div>
+                                <h5>Bluetooth Wireless Headphones</h5>
+                                <span>$ 499.00</span>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
                             </div>
-                            <h5>Speaker with Alexa Voice</h5>
-                            <span>$ 259.00</span>
-                            <div class="rating">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-suitcase wow fadeInRight"></i>
+                        </div>
+                        <div class="w-4 w-xl-4 w-lg-6 w-sm-12">
+                            <div class="product">
+                                <img src="images/product-3.png" alt="best-3" class="wow bounceIn">
+                                <span class="dis wow fadeInRight">% 5 Off</span>
+                                <div class="like">
+                                    <i class="fa-solid fa-heart  wow bounceIn"></i>
+                                </div>
+                                <h5>Speaker with Alexa Voice</h5>
+                                <span>$ 259.00</span>
+                                <div class="rating">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -680,26 +710,42 @@
                             Why People Choose Us
                         </h2>
                     </div>
-                    <div class="row justify-between">
-                        <div class="w-2 service-box wow pulse">
-                            <img src="images/gift.png" alt="gift">
-                            <span>Fast & Secure Delivery</span>
+                    <div class="row">
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/gift.png" alt="gift">
+                                <span>Fast & Secure Delivery</span>
+                            </div>
                         </div>
-                        <div class="w-2 service-box wow pulse">
-                            <img src="images/price-tag.png" alt="category-2">
-                            <span>100% Guarantee On Product</span>
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/price-tag.png" alt="category-2">
+                                <span>100% Guarantee On Product</span>
+                            </div>
                         </div>
-                        <div class="w-2 service-box wow pulse">
-                            <img src="images/price.png" alt="category-3">
-                            <span>24 Hour Return Policy</span>
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/price.png" alt="category-3">
+                                <span>24 Hour Return Policy</span>
+                            </div>
                         </div>
-                        <div class="w-2 service-box wow pulse">
-                            <img src="images/return.png" alt="category-4">
-                            <span>24 Hour Return Policy</span>
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/return.png" alt="category-4">
+                                <span>24 Hour Return Policy</span>
+                            </div>
                         </div>
-                        <div class="w-2 service-box wow pulse">
-                            <img src="images/quality.png" alt="category-5">
-                            <span>Next Level Pro Quality</span>
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/quality.png" alt="category-5">
+                                <span>Next Level Pro Quality</span>
+                            </div>
+                        </div>
+                        <div class="w-2 w-xl-2 w-lg-4 w-sm-6">
+                            <div class="service-box wow pulse">
+                                <img src="images/delivery-truck.png" alt="category-6">
+                                <span>24 Hours Free Delivery</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -717,79 +763,59 @@
                         </h2>
                     </div>
                     <div class="row">
-                        <div class="w-4">
-                            <div class="feedback-box">
+                        <div class="w-4 w-xl-4 w-lg-6 w-md-12">
+                            <div class="user-feedback">
+                                <div class="feedback-box">
                                 <p>
                                     “ It’s amazing how much easier it has been to meet new people and create instantly non connections. I have the exact same personal the only thing that has changed is my mind set and a few behaviors. “
                                 </p>
                             </div>
                             <div class="user">
                                 <img src="images/user-1.jfif" alt="user-1">
-                                <span>Head Of Idea</span>
-                                <h2>James Anderson</h2>
+                                <div class="user-detail">
+                                    <span>Head Of Idea</span>
+                                    <h2>James Anderson</h2>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        <div class="w-4">
-                            <div class="feedback-box feedback-box2">
+                        <div class="w-4 w-xl-4 w-lg-6 w-md-12">
+                            <div class="user-feedback user-feedback2">
+                                <div class="feedback-box feedback-box2">
                                 <p>
                                     “ It’s amazing how much easier it has been to meet new people and create instantly non connections. I have the exact same personal the only thing that has changed is my mind set and a few behaviors. “
                                 </p>
                             </div>
                             <div class="user">
                                 <img src="images/user-2.jpg" alt="user-2">
-                                <span>Head Of Com.</span>
-                                <h2>James Anderson</h2>
+                                <div class="user-detail">
+                                    <span>Head Of Com.</span>
+                                    <h2>James Anderson</h2>
+                                </div>
+                            </div>
                             </div>
                         </div>
-                        <div class="w-4">
-                            <div class="feedback-box">
+                        <div class="w-4 w-xl-4 w-lg-6 w-md-12">
+                            <div class="user-feedback">
+                                <div class="feedback-box feedback-box3">
                                 <p>
                                     “ It’s amazing how much easier it has been to meet new people and create instantly non connections. I have the exact same personal the only thing that has changed is my mind set and a few behaviors. “
                                 </p>
                             </div>
                             <div class="user">
                                 <img src="images/user-3.jpg" alt="user-3">
-                                <span>Customer</span>
-                                <h2>James Anderson</h2>
+                                <div class="user-detail">
+                                    <span>Customer</span>
+                                    <h2>James Anderson</h2>
+                                </div>
+                            </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-            <!-- advertisement -->
-            <section class="advertise">
-                <div class="container">
-                    <div class="row">
-                        <div class="w-6 wow bounce">
-                            <div class="inner-poster inner-poster1">
-                                <h3>
-                                    Rich sound, 
-                                    <br>
-                                    for less.
-                                </h3>
-                                <a href="javascrict:void(0);">
-                                    Collections
-                                    <i class="fa-solid fa-arrow-right-long fa-beat"></i>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="w-6 wow bounce">
-                            <div class="inner-poster inner-poster2">
-                                <a href="javascript:void(0);">
-                                    <span>50% Offer In Winter</span>
-                                </a>
-                                <h3>
-                                    Get VR 
-                                    <br>
-                                    Reality Glass
-                                </h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            </section>            
             <!-- subscription -->
-            <section class="subscription">
+            <section class="subscription py-100">
                 <div class="container">
                     <div class="row">
                         <div class="subscribe">
@@ -809,28 +835,75 @@
                         </div>
                     </div>
                 </div>
-            </section>
+            </section>            
             <!-- sponsor -->
-            <section class="sponsor py-100">
+            <section class="sponsor">`
                 <div class="container">
-                    <div class="row">
-                        <div class="w-1 sponsor-img">
-                            <img src="images/sponsor-1.png" alt="sponsor-1" class="wow bounce">
+                    <div class="row ">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-1.png" alt="sponsor-1" class="wow bounce">
+                            </div>                           
                         </div>
-                        <div class="w-1 sponsor-img ">
-                            <img src="images/sponsor-2.png" alt="sponsor-2" class="wow bounce">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-2.png" alt="sponsor-2" class="wow bounce">
+                            </div> 
                         </div>
-                        <div class="w-1 sponsor-img">
-                            <img src="images/sponsor-3.png" alt="sponsor-3" class="wow bounce">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-3.png" alt="sponsor-3" class="wow bounce">
+                            </div> 
                         </div>
-                        <div class="w-1 sponsor-img">
-                            <img src="images/sponsor-4.webp" alt="sponsor-4" class="wow bounce">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-4.webp" alt="sponsor-4" class="wow bounce">
+                            </div> 
                         </div>
-                        <div class="w-1 sponsor-img">
-                            <img src="images/sponsor-5.png" alt="sponsor-5" class="wow bounce">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-5.png" alt="sponsor-5" class="wow bounce">
+                            </div> 
                         </div>
-                        <div class="w-1 sponsor-img">
-                            <img src="images/sponsor-6.png" alt="sponsor-6" class="wow bounce">
+                        <div class="w-2 w-xl-2 w-lg-4">
+                            <div class="sponsor-img">
+                                <img src="images/sponsor-6.png" alt="sponsor-6" class="wow bounce">
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- product-img -->
+            <section class="product-advertise">
+                <div class="row">
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img1">
+                            <img src="images/adver-1.webp" alt="advertise">
+                        </div>
+                    </div>
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img2">
+                            <img src="images/adver-2.webp" alt="advertise">
+                        </div>
+                    </div>
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img3">
+                            <img src="images/adver-3.webp" alt="advertise">
+                        </div>
+                    </div>
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img4">
+                            <img src="images/adver-4.webp" alt="advertise">
+                        </div>
+                    </div>
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img1">
+                            <img src="images/adver-1.webp" alt="advertise">
+                        </div>
+                    </div>
+                    <div class="w-xxl-2 w-xl-2 w-lg-4">
+                        <div class="adver-img2">
+                            <img src="images/adver-2.webp" alt="advertise">
                         </div>
                     </div>
                 </div>
@@ -838,11 +911,10 @@
         </main>
         <footer>
             <!-- footer -->
-            <section class="footer">
-                
+            <section class="footer">                
                 <div class="container">
-                    <div class="row">
-                        <div class="w-3">
+                    <div class="row justify-center">
+                        <div class="w-3 w-xxl-3 w-md-6">
                             <div class="contact">
                                 <h3 class="wow flipInX">Support</h3>
                                 <p>
@@ -853,7 +925,7 @@
                                 <ul class="contact-details">
                                     <li>
                                         <i class="fa-solid fa-envelope wow tada"></i>
-                                        <span>example@domain.com</span>
+                                        <span>My Email ID</span>
                                     </li>
                                     <li>
                                         <i class="fa-solid fa-phone wow tada"></i>
@@ -862,7 +934,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-3">
+                        <div class="w-3 w-xxl-3 w-md-6">
                             <div class="information">
                                 <h3 class="wow flipInX">Account</h3>
                                 <ul>
@@ -884,7 +956,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-3">
+                        <div class="w-3 w-xxl-3 w-md-6">
                             <div class="information">
                                 <h3 class="wow flipInX">Quick Link</h3>
                                 <ul>
@@ -903,7 +975,7 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="w-3">
+                        <div class="w-3 w-xxl-3 w-md-6">
                             <div class="contact1">
                                 <h3 class="wow flipInX">Download App</h3>
                                 <p>
@@ -919,27 +991,27 @@
                     <div class="row icon">
                         <ul class="social-icon">
                             <li>
-                                <a href="#">
+                                <a href="https://www.facebook.com" target="_blank">
                                     <i class="fa-brands fa-facebook-f wow rollIn"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.instagram.com" target="_blank">
                                     <i class="fa-brands fa-instagram wow rollIn"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://twitter.com" target="_blank">
                                     <i class="fa-brands fa-twitter wow rollIn"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://www.linkedin.com" target="_blank">
                                     <i class="fa-brands fa-linkedin-in wow rollIn"></i>
                                 </a>
                             </li>
                             <li>
-                                <a href="#">
+                                <a href="https://dribbble.com" target="_blank">
                                     <i class="fa-brands fa-dribbble wow rollIn"></i>
                                 </a>
                             </li>
@@ -949,9 +1021,12 @@
                 </div>
             </section>
         </footer>
+
+
+       
         <script src="js/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>
     </body>
-</html>
+</html> 
